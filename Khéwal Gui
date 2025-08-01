@@ -1,0 +1,123 @@
+
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marché Digital Khéwal Gui</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      animation: fadeIn 1s ease-in;
+}
+
+    @keyframes fadeIn {
+      from { opacity: 0;}
+      to { opacity: 1;}
+}
+
+    header {
+      background-color: #2a9d8f;
+      color: #fff;
+      padding: 30px 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.intro {
+      text-align: center;
+      padding: 40px 20px;
+}
+
+.intro img {
+      width: 280px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.intro button {
+      margin-top: 20px;
+      padding: 12px 26px;
+      background-color: #e76f51;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+}
+
+.intro button:hover {
+      background-color: #d35400;
+}
+
+.dashboard {
+      background-color: #fff;
+      margin: 40px 20px;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.05);
+}
+
+.dashboard h2 {
+      margin-bottom: 20px;
+      color: #264653;
+      text-align: center;
+}
+
+.dashboard ul {
+      list-style: none;
+      padding: 0;
+}
+
+.dashboard li {
+      background: #e0f7e9;
+      margin-bottom: 12px;
+      padding: 14px;
+      border-left: 5px solid #2a9d8f;
+      font-size: 15px;
+}
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Marché Digital Khéwal Gui</h1>
+    <p>Votre plateforme de commerce local et connecté</p>
+  </header>
+
+  <div class="intro">
+    <h2>Découvrez un nouvel espace de vente</h2>
+    <img src="https://via.placeholder.com/280x180.png?text=Image+du+March%C3%A9" alt="Illustration du marché">
+    <br><br>
+    <button onclick="alert('Inscription en tant que vendeur en cours...')">Je deviens vendeur</button>
+  </div>
+
+  <div class="dashboard">
+    <h2>Tableau de bord</h2>
+    <ul>
+      <li>👤 Gérer mon profil</li>
+      <li>📦 Voir mes articles publiés</li>
+      <li>💳 Vérifier mon abonnement</li>
+      <li>📊 Consulter mes statistiques</li>
+    </ul>
+  </div>
+
+  <footer>
+    &copy; 2025 Marché Digital Khéwal Gui – Tous droits réservés
+  </footer>
+
+</body>
+</html>
+```------
